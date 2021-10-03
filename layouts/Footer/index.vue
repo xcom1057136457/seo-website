@@ -38,17 +38,17 @@
               >商务合作</li
             >
             <li>
-              <a href="" class="text-white065Color text-sm mb-3 inline-block"
-                >优质源头工厂合作</a
+              <span class="text-white065Color text-sm mb-3 inline-block"
+                >优质源头工厂合作</span
               >
             </li>
             <li>
-              <a href="" class="text-white065Color text-sm mb-3 inline-block"
-                >跨境卖家业务合作</a
+              <span class="text-white065Color text-sm mb-3 inline-block"
+                >跨境卖家业务合作</span
               >
             </li>
             <li>
-              <a href="" class="text-white065Color text-sm">市场和媒体合作</a>
+              <span class="text-white065Color text-sm">市场和媒体合作</span>
             </li>
           </ul>
 
@@ -57,17 +57,17 @@
               >关于我们</li
             >
             <li>
-              <a href="" class="text-white065Color text-sm mb-3 inline-block"
-                >关于易芽</a
+              <span class="text-white065Color text-sm mb-3 inline-block"
+                >关于易芽</span
               >
             </li>
             <li>
-              <a href="" class="text-white065Color text-sm mb-3 inline-block"
-                >联系我们</a
+              <span class="text-white065Color text-sm mb-3 inline-block"
+                >联系我们</span
               >
             </li>
             <li>
-              <a href="" class="text-white065Color text-sm">加入我们</a>
+              <span class="text-white065Color text-sm">加入我们</span>
             </li>
           </ul>
 
@@ -76,17 +76,17 @@
               >操作指南</li
             >
             <li>
-              <a href="" class="text-white065Color text-sm mb-3 inline-block"
-                >账号注册</a
+              <span class="text-white065Color text-sm mb-3 inline-block"
+                >账号注册</span
               >
             </li>
             <li>
-              <a href="" class="text-white065Color text-sm mb-3 inline-block"
-                >购物指南</a
+              <span class="text-white065Color text-sm mb-3 inline-block"
+                >购物指南</span
               >
             </li>
             <li>
-              <a href="" class="text-white065Color text-sm">常见问题</a>
+              <span class="text-white065Color text-sm">常见问题</span>
             </li>
           </ul>
         </div>
