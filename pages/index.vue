@@ -242,7 +242,7 @@
       <div class="container mx-auto flex justify-center">
         <div class="flex-1 h-96 pr-24">
           <img
-            src="~/assets/images/index/3000+外贸工厂.jpg"
+            src="~/assets/images/index/3000外贸工厂.jpg"
             alt="跨境供应链平台_易芽供应链商城"
             class="w-full h-full"
           />
