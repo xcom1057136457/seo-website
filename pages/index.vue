@@ -320,7 +320,7 @@
     </div>
 
     <div class="py-16 bg-bgColor">
-      <div class="text-center text-4xl mb-10"
+      <div class="text-center text-4xl mb-20"
         >三大服务板块，立体化覆盖跨境供应链需求</div
       >
 

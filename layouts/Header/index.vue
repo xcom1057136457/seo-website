@@ -72,7 +72,7 @@
             <a
               class="mr-6 cursor-pointer"
               :class="fixed || bannerIndex == 0 ? 'text-black' : 'text-white'"
-              :href="accountURL"
+              :href="registerAccountURL"
               >注册</a
             >
 
@@ -91,7 +91,7 @@
                   ? 'text-primaryColor border border-primaryColor'
                   : 'text-white border border-white'
               "
-              :href="accountURL"
+              :href="loginAccountURL"
               >登录易芽平台</a
             >
           </template>
@@ -119,7 +119,8 @@ export default {
     return {
       activeIndex: '/',
       fixed: false,
-      accountURL: process.env.account_host,
+      loginAccountURL: process.env.account_host,
+      registerAccountURL: process.env.account_host,
       hy_host: process.env.hy_host,
       buy_host: process.env.buy_host,
       userInfoData: {}
@@ -133,6 +134,8 @@ export default {
   },
   mounted() {
     this.watchScrollHandler()
+    this.setLoginAccountHost()
+    this.setRegisterAccountHost()
   },
   methods: {
     // 监听滚动
@@ -144,6 +147,24 @@ export default {
           this.fixed = false
         }
       })
+    },
+    setLoginAccountHost() {
+      const ag = Cookies.get('yc-channel-tag')
+      const agList = ['410605', '410608', '410615']
+      if (ag && agList.includes(ag)) {
+        this.loginAccountURL = process.env.account_host
+      } else {
+        this.loginAccountURL = `${process.env.account_host}?_ag=410605`
+      }
+    },
+    setRegisterAccountHost() {
+      const ag = Cookies.get('yc-channel-tag')
+      const agList = ['410605', '410608', '410615']
+      if (ag && agList.includes(ag)) {
+        this.registerAccountURL = process.env.account_host
+      } else {
+        this.registerAccountURL = `${process.env.account_host}?_ag=410608`
+      }
     }
   }
 }

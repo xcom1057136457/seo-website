@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <div class="layout-wrapper">
     <app-header />
 
     <ad-float />
+
+    <tools-float />
 
     <nuxt />
 
@@ -16,7 +18,8 @@ export default {
   components: {
     appHeader: () => import('./Header'),
     appFooter: () => import('./Footer'),
-    adFloat: () => import('./ADFloat')
+    adFloat: () => import('./ADFloat'),
+    toolsFloat: () => import('./ToolsFloat')
   },
   head() {
     return {

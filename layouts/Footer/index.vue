@@ -7,7 +7,7 @@
         >加入易芽，直面跨境出海新机遇</div
       >
       <a
-        href=""
+        :href="account_host"
         class="
           bg-white
           text-primaryColor
@@ -18,6 +18,9 @@
           justify-center
           rounded-3xl
           mt-10
+          transition-all
+          duration-300
+          hover:bg-primaryBg hover:text-white
         "
         >立即注册</a
       >
@@ -38,17 +41,25 @@
               >商务合作</li
             >
             <li>
-              <span class="text-white065Color text-sm mb-3 inline-block"
-                >优质源头工厂合作</span
+              <a
+                href="/businessCooperation#section1"
+                class="text-white065Color text-sm mb-3 inline-block"
+                >优质源头工厂合作</a
               >
             </li>
             <li>
-              <span class="text-white065Color text-sm mb-3 inline-block"
-                >跨境卖家业务合作</span
+              <a
+                href="/businessCooperation#section2"
+                class="text-white065Color text-sm mb-3 inline-block"
+                >跨境卖家业务合作</a
               >
             </li>
             <li>
-              <span class="text-white065Color text-sm">市场和媒体合作</span>
+              <a
+                href="/businessCooperation#section4"
+                class="text-white065Color text-sm"
+                >市场和媒体合作</a
+              >
             </li>
           </ul>
 
@@ -130,9 +141,26 @@
 </template>
 
 <script>
+import Cookies from 'js-cookie'
 export default {
   data() {
-    return {}
+    return {
+      account_host: process.env.account_host
+    }
+  },
+  mounted() {
+    this.setAccountHost()
+  },
+  methods: {
+    setAccountHost() {
+      const ag = Cookies.get('yc-channel-tag')
+      const agList = ['410605', '410608', '410615']
+      if (ag && agList.includes(ag)) {
+        this.account_host = process.env.account_host
+      } else {
+        this.account_host = `${process.env.account_host}?_ag=410615`
+      }
+    }
   }
 }
 </script>
@@ -140,5 +168,9 @@ export default {
 <style lang="scss" scoped>
 .foot-box {
   background-image: url('~/assets/images/index/Group 96.jpg');
+}
+
+.ff675e {
+  background-color: #ff675e;
 }
 </style>

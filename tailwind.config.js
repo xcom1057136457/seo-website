@@ -25,7 +25,8 @@ module.exports = {
         white065Color: 'rgba(255, 255, 255, 0.65)',
         white085Color: 'rgba(255, 255, 255, 0.85)',
         white045Color: 'rgba(255, 255, 255, 0.45)',
-        borderColor: 'rgba(255, 255, 255, 0.15)'
+        borderColor: 'rgba(255, 255, 255, 0.15)',
+        primaryBg: '#ff675e' 
       }
     }
   },
