@@ -234,6 +234,9 @@ export default {
   mounted() {
     this.bannerChange(0)
   },
+  destroyed() {
+    this.getBannerIndex(0)
+  },
   methods: {
     ...mapActions('banner', ['getBannerIndex']),
     bannerChange(val) {
@@ -243,9 +246,6 @@ export default {
     resetLinkHandler(val) {
       return resetLink(val)
     }
-  },
-  destroyed() {
-    this.getBannerIndex(0)
   }
 }
 </script>

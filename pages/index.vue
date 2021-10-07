@@ -543,15 +543,17 @@
                 />
               </div>
 
-              <div class=" mt-16 px-10">
-                <div class=" mb-6 font-semibold text-2xl text-left">选品赋能案例</div>
+              <div class="mt-16 px-10">
+                <div class="mb-6 font-semibold text-2xl text-left"
+                  >选品赋能案例</div
+                >
 
-                <div class=" mb-4 text-base text-headingColor font-medium">
-                  <span class=" mr-16">坐标：浙江</span>
+                <div class="mb-4 text-base text-headingColor font-medium">
+                  <span class="mr-16">坐标：浙江</span>
                   <span>卖家规模：1亿美元</span>
                 </div>
 
-                <div class=" text-base text-textColor"
+                <div class="text-base text-textColor"
                   >浙江某卖家，通过易芽闭门选品会推荐，买断某一小品类疫情产品，实现半年70000+销量，200万美元营收。</div
                 >
               </div>
@@ -571,15 +573,17 @@
                 />
               </div>
 
-              <div class=" mt-16 px-10">
-                <div class=" mb-6 font-semibold text-2xl text-left">账期服务案例</div>
+              <div class="mt-16 px-10">
+                <div class="mb-6 font-semibold text-2xl text-left"
+                  >账期服务案例</div
+                >
 
-                <div class=" mb-4 text-base text-headingColor font-medium">
-                  <span class=" mr-16">坐标：江苏</span>
+                <div class="mb-4 text-base text-headingColor font-medium">
+                  <span class="mr-16">坐标：江苏</span>
                   <span>卖家规模：2亿美元</span>
                 </div>
 
-                <div class=" text-base text-textColor"
+                <div class="text-base text-textColor"
                   >卖家将原有采购业务迁移到易芽平台，在易芽账期业务的帮助下，通过4个月的合作，累计节约资金和运营成本约12万。</div
                 >
               </div>
@@ -599,15 +603,17 @@
                 />
               </div>
 
-              <div class=" mt-16 px-10">
-                <div class=" mb-6 font-semibold text-2xl text-left">新品开发案例</div>
+              <div class="mt-16 px-10">
+                <div class="mb-6 font-semibold text-2xl text-left"
+                  >新品开发案例</div
+                >
 
-                <div class=" mb-4 text-base text-headingColor font-medium">
-                  <span class=" mr-16">坐标：广东</span>
+                <div class="mb-4 text-base text-headingColor font-medium">
+                  <span class="mr-16">坐标：广东</span>
                   <span>卖家规模：6500万美元</span>
                 </div>
 
-                <div class=" text-base text-textColor"
+                <div class="text-base text-textColor"
                   >客户通过易芽平台进行新品定制开发，10天内完成打样并确认样品，月内新品上架赶上了销量爆发期，5个月内连续追加订单，采购量达50万美元，实现单品利润近20万美元。</div
                 >
               </div>

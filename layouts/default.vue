@@ -23,10 +23,24 @@ export default {
   },
   head() {
     return {
-      title: metaConfig[this.$route.path] ? metaConfig[this.$route.path].title : metaConfig.default.title,
+      title: metaConfig[this.$route.path]
+        ? metaConfig[this.$route.path].title
+        : metaConfig.default.title,
       meta: [
-        { hid: 'description', name: 'description', content: metaConfig[this.$route.path] ? metaConfig[this.$route.path].description : metaConfig.default.description },
-        { hid: 'keywords', name: 'keywords', content: metaConfig[this.$route.path] ? metaConfig[this.$route.path].keywords : metaConfig.default.keywords}
+        {
+          hid: 'description',
+          name: 'description',
+          content: metaConfig[this.$route.path]
+            ? metaConfig[this.$route.path].description
+            : metaConfig.default.description
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: metaConfig[this.$route.path]
+            ? metaConfig[this.$route.path].keywords
+            : metaConfig.default.keywords
+        }
       ]
     }
   }

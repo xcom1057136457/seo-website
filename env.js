@@ -3,7 +3,7 @@ module.exports = {
     name: 'dev',
     api_url: '/api',
     hy_host: 'https://prehy.easyya.com',
-    www_host: 'https://devwww.easyya.com',
+    www_host: 'https://www.deveasyya.com',
     buy_host: 'https://devbuy.easyya.com',
     account_host: 'https://devaccount.easyya.com/#/'
   },
@@ -11,7 +11,7 @@ module.exports = {
     name: 'test',
     api_url: '',
     hy_host: 'https://testhy.easyya.com',
-    www_host: 'https://testwww.easyya.com',
+    www_host: 'https://www.testeasyya.com',
     buy_host: 'https://testbuy.easyya.com',
     account_host: 'https://testaccount.easyya.com/#/'
   },
@@ -19,7 +19,7 @@ module.exports = {
     name: 'pre',
     api_url: '',
     hy_host: 'https://prehy.easyya.com',
-    www_host: 'https://prewww.easyya.com',
+    www_host: 'https://www.preeasyya.com',
     buy_host: 'https://prebuy.easyya.com',
     account_host: 'https://preaccount.easyya.com/#/'
   },

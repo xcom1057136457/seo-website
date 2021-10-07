@@ -22,7 +22,7 @@
 
       <div class="menu h-full items-center hidden md:hidden lg:flex xl:flex 2xl:flex">
         <el-menu
-          :default-active="activeIndex"
+          :default-active="$route.path"
           class="el-menu-demo"
           :class="fixed || bannerIndex == 0 ? 'white' : 'black'"
           mode="horizontal"
@@ -188,6 +188,13 @@ export default {
 ::v-deep .el-menu--horizontal > .el-submenu .el-submenu__title {
   height: 42px;
   line-height: 42px;
+}
+
+.white {
+  .el-submenu :hover,
+  .el-menu-item:hover {
+    background-color: transparent !important;
+  }
 }
 
 .black {

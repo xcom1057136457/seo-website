@@ -96,11 +96,14 @@
 
     <el-backtop :visibility-height="500">
       <el-divider />
-      <div >
-        <img src="~/assets/images/index/返回顶部.png" class="w-6 h-auto mx-auto" alt="返回顶部" />
-        <div class=" text-xs text-center text-headingColor">顶部</div>
+      <div>
+        <img
+          src="~/assets/images/index/返回顶部.png"
+          class="w-6 h-auto mx-auto"
+          alt="返回顶部"
+        />
+        <div class="text-xs text-center text-headingColor">顶部</div>
       </div>
-      
     </el-backtop>
 
     <el-dialog

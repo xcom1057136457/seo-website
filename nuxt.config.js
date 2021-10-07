@@ -19,6 +19,8 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     {src: '~assets/css/element-variables.scss', lang: 'scss'},
+    {src: '~assets/css/global.scss', lang: 'scss'},
+    'assets/main.css',
     'animate.css'
   ],
 
