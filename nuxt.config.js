@@ -45,8 +45,14 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/proxy'
+    '@nuxtjs/proxy',
+    '@nuxtjs/robots'
   ],
+
+  robots: {
+    UserAgent: '*',
+    Allow: '*'
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
